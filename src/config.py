@@ -19,8 +19,8 @@ class DataConfig:
     # Target column
     target_col: str = "next_3m_txn_count"
     
-    # ID columns
-    customer_id_col: str = "customer_id"
+    # ID columns (UniqueID per challenge submission format)
+    customer_id_col: str = "UniqueID"
     
     # Date column
     date_col: str = "transaction_date"

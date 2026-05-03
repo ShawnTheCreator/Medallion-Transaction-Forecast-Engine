@@ -146,7 +146,7 @@ def main():
     parser.add_argument('--test-path', type=str, required=True, help='Path to test data CSV')
     parser.add_argument('--model-dir', type=str, default='models', help='Directory containing trained model')
     parser.add_argument('--output-path', type=str, default='submission.csv', help='Output submission file path')
-    parser.add_argument('--customer-id-col', type=str, default='customer_id', help='Name of customer ID column')
+    parser.add_argument('--customer-id-col', type=str, default='UniqueID', help='Name of customer ID column (UniqueID per challenge format)')
     
     args = parser.parse_args()
     
